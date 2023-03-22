@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="plantilla.css" />
+        <title>Cuestionario</title>
+    </head>
+    <body>
+        <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php">
+            <fieldset>
+                <legend>Solicitud para que DTachef te cocine una Carbonara</legend><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Nombre <input type="text" size="40">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apellidos <input type="text" size="80">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DNI <input type="text" size="40">
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Numero de telefono <input type="tel" size="30">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Correo electronico <input type="email" size="30"> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Numero de cuenta corriente <input type="text" size="64" placeholder="Campo imprescindible para el correcto funcionamiento de la solicitud">
+                <br><br>                
+                    <table>
+                        <tr>
+                            <td width="150">Alergia al Gluten<input type="checkbox"></td>
+                            <td width="150">Alergia al Huevo<input type="checkbox"></td>
+                            <td width="150">Alergia al Leche<input type="checkbox"></td>
+                            <td width="150">Alergia al Leche<input type="checkbox"></td>
+                            <td width="350">Valora la "Carbonara" con nata&nbsp; <input type="range" class="slider"></td>
+                            <td width="200"><label for="cars">Metodo de pago para el donativo:</label>
+                                <select id="cars" name="cars">
+                                    <option value="volvo">Elige metodo</option>
+                                  <option value="volvo">Bizum</option>
+                                  <option value="saab">Transferencia</option>
+                                  <option value="fiat">Paypal</option>
+                                </select>
+                            </td>
+                            <td >Informar por correo si el donativo no es suficiente<input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>No es Carbonara&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DELICIOSA!</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                <br>
+                <input id="enviar" type="submit" value="Enviar solicitud">
+            </fieldset>
+        </form>
+        <div id="piepagina">
+            <p>Proyecto HTML5 por: Fran Sánchez</p>
+        </div>
+
+    </body>
+</html>

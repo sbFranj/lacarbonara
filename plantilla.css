@@ -1,0 +1,30 @@
+body{font-family: Arial, Helvetica, sans-serif; background-color: rgb(65, 65, 65); color: white; }
+body#banner{background-image: url("banner2.jpg");background-repeat: no-repeat;}
+#menu{text-align: center; color: red; font-size: 140%;font-weight: bold;border:10px solid rgb(32, 32, 32); margin: 100px 0 100px 0;}
+div#piepagina{bottom: 0px; position: absolute;font-size: 75%;margin-left: 85%;}
+div{position: relative;}
+p#video{text-align: center;}
+#video iframe{border:10px solid rgb(32, 32, 32);}
+table{text-align: center;}
+tr#trcentro{text-align: center;}
+a{color: white; text-decoration: none; padding: 2px;}
+a:visited{color: white;}
+a:hover{background-color:rgb(223, 209, 77);color:rgb( 32, 32, 32);}
+h2,h3{margin-left: 10%;}
+tr img{border:10px solid rgb(32, 32, 32);}
+.ingrediente{font-size: 140%; font-weight: bold;}
+form{margin-top: 5.5%;}
+fieldset{border:5px solid rgb(32, 32, 32);}
+legend{background-color:  rgb(32, 32, 32); font-weight: bold;padding: 5px 20px 5px 20px;}
+#enviar{background-color: white; border-bottom: none; padding: 10px;}
+input{border:none; border-bottom: 2px solid rgb(223, 209, 77); background-color: rgb(65, 65, 65);}
+::placeholder{color:rgba(223, 209, 77, 0.459)}
+.slider {
+    -webkit-appearance: none;
+    width: 60%;
+    height: 15px;
+    background: rgb(32, 32, 32);
+    outline: none;
+    border: 1px solid rgb(223, 209, 77);
+    border-radius: 8px;
+  }
